@@ -34,7 +34,8 @@ python manage.py collectstatic
 
 :: Run the development server
 python manage.py runserver
-</details> <details> <summary><strong>Mac/Linux Setup</strong></summary>
+</details> ```
+<details> <summary><strong>Mac/Linux Setup</strong></summary>
 # Clone the repo
 git clone <your-repo-url>
 cd <your-project-folder>
