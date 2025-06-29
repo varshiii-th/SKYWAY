@@ -3,39 +3,41 @@
 Copy these commands into your terminal to get started!
 
 <details>
-<summary>Windows Setup</summary>
+<summary><strong>Windows Setup</strong></summary>
 
 ```cmd
-::
-# First clone the repo
+:: Clone the repo
+git clone <your-repo-url>
+cd <your-project-folder>
 
-# Create virtual environment
-python3 -m venv venv
+:: Create virtual environment
+python -m venv venv
 
-# Activate virtual environment
-source venv/bin/activate
+:: Activate virtual environment
+venv\Scripts\activate
 
-# Upgrade pip
+:: Upgrade pip
 pip install --upgrade pip
 
-# Install requirements
+:: Install requirements
 pip install -r requirements.txt
 
-# Run migrations
+:: Run migrations
 python manage.py makemigrations
 python manage.py migrate
 
-# Create superuser
+:: Create superuser
 python manage.py createsuperuser
 
-# Collect static files
+:: Collect static files
 python manage.py collectstatic
 
-# Run the development server
-python manage.py runserver]
-</details> <details> <summary>Mac/Linux Setup</summary>
-
-# First clone the repo
+:: Run the development server
+python manage.py runserver
+</details> <details> <summary><strong>Mac/Linux Setup</strong></summary>
+# Clone the repo
+git clone <your-repo-url>
+cd <your-project-folder>
 
 # Create virtual environment
 python3 -m venv venv
@@ -61,6 +63,4 @@ python manage.py collectstatic
 
 # Run the development server
 python manage.py runserver
-
-</details>
-
+</details> ```
