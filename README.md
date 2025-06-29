@@ -6,7 +6,7 @@ Copy these commands into your terminal to get started!
 <summary>Windows Setup</summary>
 
 ```cmd
-
+::[
 # First clone the repo
 
 # Create virtual environment
@@ -63,3 +63,4 @@ python manage.py collectstatic
 # Run the development server
 python manage.py runserver
 </details>
+]
