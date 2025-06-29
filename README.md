@@ -7,7 +7,7 @@ Follow these steps to set up the project on your local machine.
 ### Prerequisites
 - **Git**: Ensure Git is installed. Run `git --version` to verify. If not installed, download it from [https://git-scm.com/](https://git-scm.com/).
 - **Python**: Ensure Python 3.8 or higher is installed. Run `python --version` (Windows) or `python3 --version` (Mac/Linux) to verify. Download from [https://www.python.org/](https://www.python.org/) if needed.
-- **Repository URL**: Obtain the Git repository URL (e.g., `https://github.com/username/repository.git`) from your project host (GitHub, GitLab, etc.).
+- **Repository URL**: Obtain the Git repository URL (e.g., `https://github.com/varshiii-th/SKYWAY.git`)
 
 Copy the commands below into your terminal to get started!
 
@@ -15,9 +15,8 @@ Copy the commands below into your terminal to get started!
 <summary><strong>Windows Setup</strong></summary>
 
 ```cmd
-:: Clone the repo (replace <your-repo-url> with your repository URL, e.g., https://github.com/username/repository.git)
-git clone <your-repo-url>
-cd <your-project-folder>
+:: Clone the repo 
+git clone https://github.com/varshiii-th/SKYWAY.git
 
 :: Create virtual environment
 python -m venv venv
@@ -54,9 +53,9 @@ python manage.py runserver
 <summary><strong>Mac/Linux Setup</strong></summary>
 
 ```bash
-# Clone the repo (replace <your-repo-url> with your repository URL, e.g., https://github.com/username/repository.git)
-git clone <your-repo-url>
-cd <your-project-folder>
+# Clone the repo 
+git clone https://github.com/varshiii-th/SKYWAY.git
+
 
 # Create virtual environment
 python3 -m venv venv
