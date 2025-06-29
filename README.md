@@ -32,11 +32,11 @@ python manage.py createsuperuser
 python manage.py collectstatic
 
 # Run the development server
-python manage.py runserver
+python manage.py runserver]
 </details> <details> <summary>Mac/Linux Setup</summary>
-# Clone your repo
-git clone <your-repo-url>
-cd <your-project-folder>
+```cmd
+::[
+# First clone the repo
 
 # Create virtual environment
 python3 -m venv venv
@@ -62,5 +62,6 @@ python manage.py collectstatic
 
 # Run the development server
 python manage.py runserver
-</details>
 ]
+</details>
+
