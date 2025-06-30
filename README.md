@@ -9,7 +9,7 @@ Follow these steps to set up the project on your local machine.
 - **Python**: Ensure Python 3.8 or higher is installed. Run `python --version` (Windows) or `python3 --version` (Mac/Linux) to verify. Download from [https://www.python.org/](https://www.python.org/) if needed.
 - **Repository URL**: Obtain the Git repository URL (e.g., `https://github.com/varshiii-th/SKYWAY.git`)
 
-Copy the commands below into your terminal to get started!
+Copy the commands below into your terminal to get started.
 
 <details>
 <summary><strong>Windows Setup</strong></summary>
